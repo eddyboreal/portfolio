@@ -1,0 +1,459 @@
+:root {
+    --band-dark-grey: #222222;
+    --bg-dark-blue: #373A47;
+    --band-dark-grey: #222222;
+    --sub-grey: #B7B7B7;
+    --main-text: white;
+    --header-black: black;
+    --copyright: #B9B9B9;
+    --tag-red: #AB544B;
+    --tag-brown: #AB764B;
+    --tag-pastel-green: #A7AB4B;
+    --tag-pistachio-green: #61AB4B;
+    --tag-dark-blue: #4B50AB;
+    --tag-light-blue: #4BAB98;
+    --tag-purple: #5E3D68;
+    --tag-genre: #2D2F36;
+    --tag-year: #7a808a;
+    --yellow-hover: rgb(240, 228, 58);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    font-family: "Century Gothic";
+}
+
+.title {
+    font-family: "Futura";
+}
+
+h1 {
+    font-size: 52px;
+    font-family: "Futura";
+    color: var(--main-text);
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 38px;
+    font-family: "Futura";
+    color: var(--main-text);
+}
+
+p {
+    font-size: 17px;
+    color: var(--main-text);
+}
+
+.section-band h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main {
+    font-size: 17px;
+    color: var(--main-text);
+}
+
+.tag-container {
+    margin-top: 10px;
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+}
+
+.tag {
+    height: 21px;
+    min-width: 30px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+    font-weight: 100;
+    font-size: 17px;
+    font-family: "Century Gothic";
+    text-align: center;
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-top: 5px;
+    float: left;
+}
+
+.tag-genre {
+    height: 26px;
+    min-width: 30px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Century Gothic";
+    text-align: center;
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-top: 15px;
+    float: left;
+    background-color: var(--tag-genre);
+}
+
+.tag-year {
+    height: 26px;
+    min-width: 30px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Century Gothic";
+    text-align: center;
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-top: 15px;
+    float: left;
+    background-color: var(--tag-year);
+}
+
+.project-short-desc {
+    text-align: justify;
+    position: relative;
+}
+
+#header-container{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 45px;
+    min-width: 292px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-bg {
+    background-color: var(--header-black);
+    opacity: .6;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 0 38px 1px rgb(0 0 0 / 75%);
+}
+
+#header-name {
+    font-size: 30px;
+    font-family: "Futura";
+    color: var(--main-text);
+    float: left;
+    margin-left: 80px;
+}
+
+#header-anchors-container {
+    float: right;
+    display: flex;
+    margin-right: 80px;
+}
+
+.header-anchor {
+    font-family: "Futura";
+    font-size: 23px;
+    color: var(--main-text);
+    margin-left: 35px;
+    margin-top: 6px;
+}
+
+.header-anchor:hover a{
+    color: var(--yellow-hover);
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-text);
+}
+
+#fullscreen-image-container {
+    font-size: 0;
+}
+
+#fullscreen-image-container img{
+    width: 100vw;
+}
+
+.page-container {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.section-container {
+    width: 100%;
+}
+
+.section-band {
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--band-dark-grey);
+}
+
+.section-band-first {
+    margin-top: 0px;
+}
+
+.section-content {
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: justify;
+}
+
+.copyright-section {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--copyright);
+}
+
+#Projects {
+    scroll-margin-top: 44px;
+}
+
+#AboutMe {
+    scroll-margin-top: 44px;
+}
+
+#project-cards-container {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 26px;
+    justify-content: space-evenly;
+}
+
+.project-first-container {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.project-card {
+    position: relative;
+    z-index: -6;
+    overflow: visible;
+    height: 180px;
+    width: 320px;
+}
+
+.project-card-link:hover .project-card img {
+    transform: scale(1.02);
+}
+
+.project-card-link:hover .project-card-title {
+    transform: scale(1.02);
+    bottom: -3px;
+    left: 3px;
+}
+
+.project-card-link:hover .project-card img {
+    border-style: solid;
+    border-color: var(--yellow-hover);
+}
+
+
+.project-card img {
+    width: 320px;
+    height: 180px;
+    border-radius: 14px;
+}
+
+.project-card-title {
+    background-color: rgb(0 0 0 / 60%);
+    height: 40px;
+    width: 320px;
+    position: absolute;
+    bottom: 0px;
+    border-radius: 0px 0px 14px 14px;
+}
+
+.project-card-title h2 {
+    font-size: 23px;
+    text-align: center;
+    margin: 5px 0 0 0;
+}
+
+.project-short-desc-container {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-presentation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.project-title h1 {
+    font-size: 60px;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    color: var(--sub-grey);
+    margin-top: 10px;
+}
+
+.presentation-container {
+    width: 40%;
+}
+
+.presentation-img {
+    margin-right: 80px;
+    margin-top: 40px;
+}
+
+.presentation-img img {
+    width: 38vw;
+    border-style: solid;
+    border-color: var(--sub-grey);
+}
+
+.project-information {
+    margin-left: 80px;
+}
+
+.contributions-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+}
+
+.contribution {
+    width: 35%;
+    margin-top: 50px;
+}
+
+.social-network-container {
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+}
+
+#gmail {
+    width: 64px;
+    height: 64px;
+    background-image: url(../images/GMAIL_LOGO.png);
+    background-size: 64px;
+    transition: background-image 0.1s ease-in-out;
+}
+
+#gmail:hover {
+    background-image: url(../images/GMAIL_LOGO_ON_HOVER.png); 
+}
+
+#linkedin {
+    width: 64px;
+    height: 64px;
+    background-image: url(../images/LINKEDIN_LOGO.png);
+    background-size: 64px;
+    transition: background-image 0.1s ease-in-out;
+}
+
+#linkedin:hover {
+    background-image: url(../images/LINKEDIN_LOGO_ON_HOVER.png); 
+}
+
+
+
+/*
+.anchors {
+    font-size: 30;
+    font-family: "Futura";
+}
+
+#header-container {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 30px;
+    min-width: 292px;
+}
+
+#header-bg {
+    background-color: var(--header-black);
+    opacity: .6;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0 0 38px 1px rgb(0 0 0 / 75%);
+}
+
+.header-title {
+    font-family: "Futura";
+    color: var(--main-text);
+    float: right;
+    padding-top: 2px;
+    margin-right: 20px;
+    z-index: 20;
+}
+
+#header-titles-container {
+    min-width: 645px;
+    font-size: 12px;
+    z-index: 1;
+    margin-top:5px;
+}
+
+#header-name {
+    font-family: "Futura";
+    font-size: 16px;
+    color: var(--main-text);
+    float: left;
+    min-width: 165px;
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: left;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.container-fluid{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} */

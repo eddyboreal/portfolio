@@ -1,0 +1,22 @@
+{
+  "name": "portfolio_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddyboreal/PORTFOLIO_TEMPLATE.git"
+  },
+  "author": "Mikaël FRUCTUOSO & Eddy ABADA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eddyboreal/PORTFOLIO_TEMPLATE/issues"
+  },
+  "homepage": "https://github.com/eddyboreal/PORTFOLIO_TEMPLATE#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}
