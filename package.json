@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/eddyboreal/PORTFOLIO_TEMPLATE#readme",
   "dependencies": {
-    "bootstrap": "^4.6.0"
+    "bootstrap": "^4.6.0",
+    "express": "^4.17.1"
   }
 }

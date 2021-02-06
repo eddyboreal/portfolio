@@ -36,7 +36,7 @@ html, body {
 }
 
 h1 {
-    font-size: 52px;
+    font-size: 42px;
     font-family: "Futura";
     color: var(--main-text);
     margin-top: 0;
@@ -50,12 +50,22 @@ h2 {
 
 p {
     font-size: 17px;
+    font-family: "Century Gothic";
     color: var(--main-text);
 }
 
 .section-band h1 {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+#Projects h1 {
+    margin-bottom: 0px;
+}
+
+#Projects p {
+    margin : 0px;
+    padding-bottom : 15px;
 }
 
 .main {
@@ -215,7 +225,7 @@ a {
 }
 
 .section-content {
-    width: 70%;
+    width: 60%;
     margin-top: 50px;
     margin-bottom: 35px;
     margin-left: auto;
@@ -244,7 +254,8 @@ a {
 }
 
 #project-cards-container {
-    width: 100%;
+    width: 80vw;
+    margin-left : 10vw; 
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -297,7 +308,9 @@ a {
 }
 
 .project-card-title h2 {
-    font-size: 23px;
+    font-size: 18px;
+    font-weight : 500;
+    font-family : 'QuickSand';
     text-align: center;
     margin: 5px 0 0 0;
 }
@@ -317,7 +330,7 @@ a {
 
 .project-title h1 {
     font-size: 60px;
-    margin-top: 80px;
+    margin-top: 80-4px;
     margin-bottom: 0;
 }
 
@@ -369,6 +382,10 @@ a {
     background-image: url(../images/GMAIL_LOGO.png);
     background-size: 64px;
     transition: background-image 0.1s ease-in-out;
+}
+
+.project-information .project-title{
+    margin-top:80px;
 }
 
 #gmail:hover {
