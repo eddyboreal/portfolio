@@ -197,6 +197,14 @@ a {
 
 #fullscreen-image-container {
     font-size: 0;
+    margin-top:45px;
+    width: 99vw;
+    height: 44vw;
+    overflow:hidden;
+}
+
+#fullscreen-image-container video{
+    width: 99vw;
 }
 
 #fullscreen-image-container img{
