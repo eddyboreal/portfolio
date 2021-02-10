@@ -201,6 +201,7 @@ a {
     width: 99vw;
     height: 44vw;
     overflow:hidden;
+    background-color: black;
 }
 
 #fullscreen-image-container video{
