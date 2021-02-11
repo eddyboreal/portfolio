@@ -15,7 +15,7 @@ app.get('/temp-page.html', (req, res) => {
 app.get('/resume', (req, res) => {
     //request(__dirname + req.params.file).pipe(res);
    res.set( 'Content-Type', 'application/pdf' );
-    res.sendFile('./public/Eddy_ABADA_Resume.pdf', { root: __dirname });
+    res.sendFile('./public/ABADA_Eddy_EN_RESUME.pdf', { root: __dirname });
     //res.send(new Buffer('./public/Eddy_ABADA_Resume.pdf', 'binary'));
 });
 
