@@ -27,6 +27,25 @@ html, body {
     padding: 0;
 }
 
+@font-face {
+    font-family: "Century Gothic";
+    src: url("/fonts/GOTHIC.ttf") format("ttf"),
+        url("/fonts/GOTHICB.ttf") format("ttf"),
+        url("/fonts/GOTHICBI.ttf") format("ttf"),
+        url("/fonts/GOTHICI.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "QuickSand";
+    src: url("/fonts/QuickSand-Regular.otf") format("otf"),
+        url("/fonts/QuickSand-Bold.otf") format("otf");
+}
+
+@font-face {
+    font-family: "Futura";
+    src: url("/fonts/Futura Heavy.otf") format("otf");
+}
+
 .content {
     font-family: "Century Gothic";
 }
