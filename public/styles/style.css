@@ -1,3 +1,22 @@
+@font-face {
+    font-family: "Century Gothic";
+    src: url("fonts/GOTHIC.ttf") format("ttf"),
+        url("fonts/GOTHICB.ttf") format("ttf"),
+        url("fonts/GOTHICBI.ttf") format("ttf"),
+        url("fonts/GOTHICI.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "QuickSand";
+    src: url("fonts/QuickSand-Regular.otf") format("opentype"),
+        url("fonts/QuickSand-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Futura";
+    src: url("fonts/Futura Heavy.otf") format("opentype");
+}
+
 :root {
     --band-dark-grey: #222222;
     --bg-dark-blue: #373A47;
@@ -25,25 +44,6 @@ html {
 html, body {
     margin: 0;
     padding: 0;
-}
-
-@font-face {
-    font-family: "Century Gothic";
-    src: url("fonts/GOTHIC.ttf") format("ttf"),
-        url("fonts/GOTHICB.ttf") format("ttf"),
-        url("fonts/GOTHICBI.ttf") format("ttf"),
-        url("fonts/GOTHICI.ttf") format("ttf");
-}
-
-@font-face {
-    font-family: "QuickSand";
-    src: url("fonts/QuickSand-Regular.otf") format("otf"),
-        url("fonts/QuickSand-Bold.otf") format("otf");
-}
-
-@font-face {
-    font-family: "Futura";
-    src: url("fonts/Futura Heavy.otf") format("otf");
 }
 
 .content {
