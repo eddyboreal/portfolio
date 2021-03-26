@@ -1,21 +1,21 @@
-@font-face {
+/*@font-face {
     font-family: "Century Gothic";
     src: url("../fonts/GOTHIC.ttf") format("truetype");
         /*url("../fonts/GOTHICB.ttf") format("truetype"),
         url("../fonts/GOTHICBI.ttf") format("truetype"),
-        url("../fonts/GOTHICI.ttf") format("truetype");*/
-}
+        url("../fonts/GOTHICI.ttf") format("truetype");
+}/*
 
 @font-face {
     font-family: "QuickSand";
     src: url("../fonts/QuickSand-Regular.otf") format("opentype");
-        /*url("../fonts/QuickSand-Bold.otf") format("opentype"); */
+        /*url("../fonts/QuickSand-Bold.otf") format("opentype"); 
 }
 
 @font-face {
     font-family: "Futura";
     src: url("../fonts/Futura-Heavy.otf") format("opentype");
-}
+}*/
 
 :root {
     --band-dark-grey: #222222;
